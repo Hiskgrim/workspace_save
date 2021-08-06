@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Sun Jul 25 16:25:14 COT 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\eclipse-workspace\\web-costumer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\eclipse-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\.m2\\repository\\org\\springframework\\spring-web\\5.3.8\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\eclipse-workspace\\web-costumer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar=WEB-INF/lib/spring-web-5.3.8-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\.m2\\repository\\org\\springframework\\spring-web\\5.0.2.RELEASE\\spring-web-5.0.2.RELEASE.jar=WEB-INF/lib/spring-web-5.0.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\mauricio\\eclipse-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar=WEB-INF/lib/spring-web-5.3.8-sources.jar

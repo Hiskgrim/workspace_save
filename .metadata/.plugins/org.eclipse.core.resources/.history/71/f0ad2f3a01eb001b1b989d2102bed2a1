@@ -1,0 +1,42 @@
+package com.luv2code.springdemo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping; // saldria error con el post en el listCustomer
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.luv2code.springdemo.dao.CustomerDAO;
+import com.luv2code.springdemo.entity.Customer;
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+
+	//need to inject the customer DAO
+	//Delete because we dont want to implements directly from the DAO but implements from the facade service
+	//meaning the CustomerDAO service interface
+	/*@Autowired
+	private CustomerDAO customerDAO;*/
+	
+	//need to inject our customer service
+	@Autowired
+	private CustomerService customerService;
+	
+		
+	@GetMapping("/list")
+	public String listCustommer(Model theModel) {
+	
+		//get customer from the dao
+		List<Customer> theCustomers = customerDAO.getCustomers();
+				
+		//add the customers to the model
+		theModel.addAttribute("customers", theCustomers); //customers es la variable que se pasa en el front
+		
+		return "list-customers";
+	}
+	
+}

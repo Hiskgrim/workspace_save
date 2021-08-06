@@ -1,0 +1,28 @@
+package com.luv2code.springdemo.rest;
+
+public class StudentNotFoundException extends RuntimeException {
+
+	// we generate this methods by right click source generate methds from superclass
+	
+	/*
+	 * this is a custom exception class
+	 */
+	public StudentNotFoundException(String message, Throwable cause) {
+		super(message, cause);
+	
+	}
+
+	public StudentNotFoundException(String message) {
+		super(message);
+		
+	}
+
+	public StudentNotFoundException(Throwable cause) {
+		super(cause);
+		
+	}
+
+	
+	
+	
+}

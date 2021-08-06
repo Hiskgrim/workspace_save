@@ -1,0 +1,11 @@
+package com.luv2code.springboot.cruddemo.entity;
+
+import org.hibernate.annotations.Entity;
+import org.hibernate.annotations.Table;
+
+
+@Entity
+@Table(name="employee")
+public class Employee {
+
+}

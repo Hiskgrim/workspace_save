@@ -1,0 +1,3 @@
+# For expose info and health endpoints
+
+management.endpoints.web.exposure.include=health, info

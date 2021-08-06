@@ -1,0 +1,14 @@
+package com.luv2code.springdemo.rest;
+
+public class StudentErrorResponse {
+
+	//our POJO for handling exceptions in the response
+	private int status;
+	private String message;
+	private long timeStamp;
+
+	public StudentErrorResponse() {
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package com.lu2vcode.aopdemo.dao;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+@Bean
+public class AccountDAO {
+
+	public void addAccount() {
+		//GETCLASS - GIVE CLASS FOR DISPLAY
+		System.out.println(getClass() + ": DOING MY DB WORK: ADDING ACCOUNT");
+	}
+}
